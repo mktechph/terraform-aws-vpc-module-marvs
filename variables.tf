@@ -1,6 +1,6 @@
 variable "vpc_cidr_block" {
   description = "CIDR Block of the VPC."
-  type = string
+  type        = string
 }
 
 variable "vpc_tags" {
